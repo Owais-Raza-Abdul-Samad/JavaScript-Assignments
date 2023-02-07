@@ -94,96 +94,29 @@
 // var marksInSubject1 = +prompt("Enter marks obtained in first subject :");
 // var marksInSubject2 = +prompt("Enter marks obtained in second subject :");
 // var marksInSubject3 = +prompt("Enter marks obtained in third subject :");
-// var totalMarks = +prompt("Enter total marks :");
-// var percentageInSubject1 = marksInSubject1 / totalMarks * 100;
-// var percentageInSubject2 = marksInSubject2 / totalMarks * 100;
-// var percentageInSubject3 = marksInSubject3 / totalMarks * 100;
+// var totalMarks = +prompt("Enter total marks of all subjects :");
+// var totalObtainedMarks = marksInSubject1 + marksInSubject2 + marksInSubject3;
+// var percentage = totalObtainedMarks / totalMarks * 100;
 // var grade;
 // var remarks;
-// document.write ("Total marks : " + totalMarks + "<br>");
-// document.write ("Marks obtained in First subject : " + marksInSubject1 + "<br>");
-// document.write ("Percentage : " + percentageInSubject1 + "<br>");
-
-// if (percentageInSubject1 >= 80) {
-//     grade = "A-one"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Excellent"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject1 >= 70 && percentageInSubject1 < 80) {
-//     grade = "A"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Good"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject1 >= 60 && percentageInSubject1 < 70) {
-//     grade = "B"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "You need to improve"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject1 < 60) {
-//     grade = "Fail"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Sorry"
-//     document.write ("Remarks : " + remarks + "<br><br>");
+// if (percentage >= 80) {
+//     grade = "A-one";
+//     remarks = "Excellent";
+// } else if (percentage >= 70 && percentage < 80) {
+//     grade = "A";
+//     remarks = "Good";
+// } else if (percentage >= 60 && percentage < 70) {
+//     grade = "B";
+//     remarks = "You need to improve";
+// } else {
+//     grade = "Fail";
+//     remarks = "Sorry";
 // }
 // document.write ("Total marks : " + totalMarks + "<br>");
-// document.write ("Marks obtained in Second subject : " + marksInSubject2 + "<br>");
-// document.write ("Percentage : " + percentageInSubject2 + "<br>");
-
-// if (percentageInSubject2 >= 80) {
-//     grade = "A-one"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Excellent"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject2 >= 70 && percentageInSubject2 < 80) {
-//     grade = "A"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Good"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject2 >= 60 && percentageInSubject2 < 70) {
-//     grade = "B"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "You need to improve"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject2 < 60) {
-//     grade = "Fail"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Sorry"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// document.write ("Total marks : " + totalMarks + "<br>");
-// document.write ("Marks obtained in Third subject : " + marksInSubject3 + "<br>");
-// document.write ("Percentage : " + percentageInSubject3 + "<br>");
-
-// if (percentageInSubject3 >= 80) {
-//     grade = "A-one"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Excellent"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject3 >= 70 && percentageInSubject3 < 80) {
-//     grade = "A"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Good"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject3 >= 60 && percentageInSubject3 < 70) {
-//     grade = "B"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "You need to improve"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
-// if (percentageInSubject3 < 60) {
-//     grade = "Fail"
-//     document.write ("Grade : " + grade + "<br>");
-//     remarks = "Sorry"
-//     document.write ("Remarks : " + remarks + "<br><br>");
-// }
+// document.write ("Marks obtained : " + totalObtainedMarks + "<br>");
+// document.write ("Percentage : " + percentage + "<br>");
+// document.write ("Grade : " + grade + "<br>");
+// document.write ("Remarks : " + remarks);
 
 // QUESTION#7
 // var secretNumber = 5;
