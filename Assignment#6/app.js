@@ -109,13 +109,13 @@
 // QUESTION#15
 // var password = prompt("Enter your password :")
 // document.write("Entered password : " + password + "<br>");
-//          (a)
+        //  (a)
 // var a = false;
 // for (var i = 0; i < password.length; i++) {
-//     // console.log(password[i],password[i].charCodeAt())            // <--- test
+//     console.log(password[i],password[i].charCodeAt())            // <--- test
 //     if (password[i].charCodeAt() >= 48 && password[i].charCodeAt() <= 57 || password[i].charCodeAt() >= 97 && password[i].charCodeAt() <= 122) {
 //         a = true;
-//         // console.log(a)              // <--- test
+//         console.log(a)              // <--- test
 //     } else {
 //         a = false
 //         break;
@@ -124,11 +124,11 @@
 // if (a == false) {
 //     document.write("Password should only contain letters and numbers. <br> Please enter a valid password");
 // }
-//          (b)
+        //  (b)
 // if (password[0].charCodeAt() >= 48 && password[0].charCodeAt() <= 57) {
 //     document.write("Password should not start with a number. <br> Please enter a valid password");
 // }
-//          (c)
+        //  (c)
 // if (password.length < 6) {
 //     document.write("Password should at least be 6 characters long. <br> Please enter a valid password");
 // }
